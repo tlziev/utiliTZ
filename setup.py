@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-
 setup(name='utiliTZ',
       version='0.0.0',
       url='https://github.com/tlziev/utiliTZ',
@@ -11,5 +10,4 @@ setup(name='utiliTZ',
       },
       install_requires=[
       ],
-)
-
+      )
