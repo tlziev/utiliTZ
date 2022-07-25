@@ -38,7 +38,7 @@ def select_subkeys(d, ks):
     return dl, flattened
 
 
-def obj_from_dict(clazz, d, ks='base'):
+def obj_from_dict(clazz, d, ks=None):
     """
     Creates an object of a specified class from a dict.
 
